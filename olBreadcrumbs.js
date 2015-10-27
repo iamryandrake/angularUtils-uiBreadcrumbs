@@ -1,5 +1,5 @@
 /**
- * uiBreadcrumbs automatic breadcrumbs directive for AngularJS & Angular ui-router.
+ * olBreadcrumbs automatic breadcrumbs directive for AngularJS & Angular ui-router.
  *
  * https://github.com/michaelbromley/angularUtils/tree/master/src/directives/uiBreadcrumbs
  *
@@ -12,8 +12,8 @@
     /**
      * Config
      */
-    var moduleName = 'angularUtils.directives.uiBreadcrumbs';
-    var templateUrl = 'directives/uiBreadcrumbs/uiBreadcrumbs.tpl.html';
+    var moduleName = 'olBreadcrumbs';
+    var templateUrl = 'directives/olBreadcrumbs/uiBreadcrumbs.tpl.html';
 
     /**
      * Module
