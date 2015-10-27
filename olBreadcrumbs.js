@@ -13,7 +13,7 @@
      * Config
      */
     var moduleName = 'olBreadcrumbs';
-    var templateUrl = 'directives/olBreadcrumbs/uiBreadcrumbs.tpl.html';
+    var templateUrl = 'directives/olBreadcrumbs/olBreadcrumbs.tpl.html';
 
     /**
      * Module
