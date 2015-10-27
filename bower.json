@@ -1,9 +1,9 @@
 {
   "name": "ol-angular-breadcrumbs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/iamryandrake/angularUtils-uiBreadcrumbs",
   "authors": [
-    "Michael Bromley <michael@michaelbromley.co.uk>"    
+    "Michael Bromley <michael@michaelbromley.co.uk>"
   ],
   "description": "Automatic breadcrumbs for angular-ui-router",
   "main": ["olBreadcrumbs.js", "olBreadcrumbs.tpl.html"],
