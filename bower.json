@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://github.com/iamryandrake/angularUtils-uiBreadcrumbs",
   "authors": [
-    "Michael Bromley <michael@michaelbromley.co.uk>",
-    "Ryan Drake <michael@otherlevels.com>",
-    "Dominic Garibaldi <dominic.garibaldi@otherlevels.com>",
+    "Michael Bromley <michael@michaelbromley.co.uk>"    
   ],
   "description": "Automatic breadcrumbs for angular-ui-router",
   "main": ["olBreadcrumbs.js", "olBreadcrumbs.tpl.html"],
@@ -16,9 +14,7 @@
     "angularjs",
     "ui-router",
     "breadcrumbs",
-    "angular",
-    "otherlevels"
-  ],
+    "angular"],
   "license": "MIT",
   "ignore": [
     "**/.*",
