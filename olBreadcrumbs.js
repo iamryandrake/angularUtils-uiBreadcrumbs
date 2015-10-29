@@ -38,6 +38,8 @@
                 },
                 link: function(scope) {
                     scope.breadcrumbs = [];
+                    console.log('THIS IS THE SCOPE');
+                    console.log(scope);
                     if ($state.$current.name !== '') {
                         updateBreadcrumbsArray();
                     }
