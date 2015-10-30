@@ -26,7 +26,7 @@
         module = angular.module(moduleName, ['ui.router']);
     }
 
-    module.directive('uiBreadcrumbs', ['$interpolate', '$state', function($interpolate, $state) {
+    module.directive('uiBreadcrumbs', ['$interpolate', '$state', 'brandsService' function($interpolate, $state, brandsService) {
             return {
                 restrict: 'E',
                 templateUrl: function(elem, attrs) {
@@ -40,6 +40,8 @@
                     scope.breadcrumbs = [];
                     console.log('THIS IS THE SCOPE');
                     console.log(scope);
+                    scope.brandsService = brandsService;
+                    console.log(scope.brandsService);
                     if ($state.$current.name !== '') {
                         updateBreadcrumbsArray();
                     }
