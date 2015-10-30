@@ -26,7 +26,7 @@
         module = angular.module(moduleName, ['ui.router']);
     }
 
-    module.directive('uiBreadcrumbs', ['$interpolate', '$state', 'brandsService', function($interpolate, $state, brandsService) {
+    module.directive('uiBreadcrumbs', ['$interpolate', '$state', function($interpolate, $state) {
             return {
                 restrict: 'E',
                 templateUrl: function(elem, attrs) {
