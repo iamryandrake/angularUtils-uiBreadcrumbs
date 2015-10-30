@@ -39,8 +39,7 @@
                 link: function(scope) {
                     scope.breadcrumbs = [];
                     console.log('THIS IS THE SCOPE');
-                    console.log(scope);
-                    scope.brandsService = brandsService;
+                    console.log(scope);                    
                     console.log(scope.brandsService);
                     if ($state.$current.name !== '') {
                         updateBreadcrumbsArray();
